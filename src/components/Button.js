@@ -12,12 +12,13 @@ const Button = ({
 
 const styles = StyleSheet.create({
     container: {
-        width: 315,
-        height: 48,
+        width: 350,
+        height: 50,
         justifyContent: "center",
         alignItems: "center",
         borderRadius: 6,
-        backgroundColor: "#FF9F1C"
+        backgroundColor: "#FF9F1C",
+        marginLeft: 30
     },
     text: {
         fontFamily: "CircularStd-Bold",

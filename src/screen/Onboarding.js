@@ -11,9 +11,9 @@ export default class Onboarding extends Component {
         super(props);
         this.state = {
             slides: [
-                { id: 1, image: require("../../assets/image/background-image.png") },
-                { id: 2, image: require("../../assets/image/background_1.png") },
-                { id: 3, image: require("../../assets/image/background_2.png") },
+                { id: 1, image: require("../../assets/image/Onboarding/background-image.png") },
+                { id: 2, image: require("../../assets/image/Onboarding/background_1.png") },
+                { id: 3, image: require("../../assets/image/Onboarding/background_2.png") },
             ]
         }
     }
